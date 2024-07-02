@@ -20,5 +20,5 @@ def is_contains(string, list_to_search):
 print(string_info('Capybara'))
 print(string_info('Armagedon'))
 print(is_contains('urban', ['ban', 'BaNan', 'urBAN']))  # Urban ~ urBAN
-print(is_contains('cycle', ['recycle', 'ceclic']))  # No matches
+print(is_contains('cycle', ['recycle', 'cyclic']))  # No matches
 print(calls)
